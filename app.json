@@ -1,0 +1,12 @@
+{
+  "name": "react-native-shopping-app",
+  "displayName": "react-native-shopping-app",
+  "expo": {
+    "name": "react-native-shopping-app",
+    "slug": "react-native-shopping-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
