@@ -2,6 +2,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<p align="center">
+  <img src="./assets/screenshot1.png" width="300">
+  <img src="./assets/screenshot2.png" width="300">
+</p>
+
 A very simple shopping cart app.
 
 ### Built With
