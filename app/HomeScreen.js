@@ -3,7 +3,7 @@ import 'react-native-gesture-handler';
 import DATA from "./data";
 import React, { useEffect, useState } from "react";
 import {
-  Button, FlatList, Image, SafeAreaView, StyleSheet, Text, TouchableWithoutFeedback, View
+  Button, FlatList, Image, SafeAreaView, StyleSheet, Text, TouchableWithoutFeedback, View, StatusBar
 } from "react-native";
 
 const Item = ({ item, onAddItem }) => (
@@ -71,6 +71,7 @@ const HomeScreen = ({ navigation, route }) => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="dark-content" />
       <FlatList
         style={styles.flatList}
         data={DATA}

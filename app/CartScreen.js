@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 
 import React, { useEffect, useState } from "react";
 import {
-  Button, FlatList, Image, SafeAreaView, StyleSheet, Text, View, TouchableWithoutFeedback
+  Button, FlatList, Image, SafeAreaView, StyleSheet, Text, View, TouchableWithoutFeedback, StatusBar
 } from "react-native";
 
 const CartItem = ({ item, onPressMinus, onPressPlus, onDelete }) => (
@@ -82,6 +82,7 @@ const CartScreen = ({ navigation, route }) => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="dark-content" />
       <FlatList
         style={styles.flatList}
         data={displayItemsInCart}
